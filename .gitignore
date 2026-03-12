@@ -1,0 +1,39 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Database/temporary
+database/
+*.sqlite3
+
+# Model checkpoints and extras
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Env config
+.env
+
+# Jupyter
+.ipynb_checkpoints/

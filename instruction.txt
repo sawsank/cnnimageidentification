@@ -1,0 +1,42 @@
+# FaceGuard: Face Recognition System Instructions
+
+Welcome to the FaceGuard project! This system uses Deep Learning (CNNs) to recognize individuals from photos or a web cam.
+
+## 1. Setup Environment
+Open your terminal in the project folder and run:
+```bash
+# Step 1: Activate the virtual environment
+source venv/bin/activate
+
+# Step 2: Ensure dependencies are installed (if not already)
+pip install -r requirements.txt
+```
+
+## 2. Launch the Application
+Start the interactive dashboard by running:
+```bash
+streamlit run app.py
+```
+
+## 3. How to Use FaceGuard
+
+### A. Dynamic Enrollment (Add People)
+1. Go to the "📥 Enroll New Person" tab.
+2. Enter the person's name (e.g., "Shasank").
+3. Upload a clear portrait photo of them.
+4. Click "Enroll Securely". The image is saved to the `database/` folder.
+
+### B. Face Identification (Identify People)
+1. Go to the "🔍 Identify Face" tab.
+2. Select your input method:
+   - **Web Cam**: Take a live photo using your camera.
+   - **Upload Image**: Upload a photo from your computer.
+3. The system will extract biometric features and compare them against the `database/` folder.
+4. If a match is found, the person's name and similarity score will be displayed.
+
+## 4. Troubleshooting
+- **First Run**: The first time you run recognition, the system will download the pre-trained VGG-Face model (about 500MB). This only happens once.
+- **Web Cam**: Ensure you have granted browser permissions to access your camera.
+- **Accuracy**: For best results, use clear, forward-facing portraits without heavy filters.
+
+Created by Antigravity for Shasank.
