@@ -33,7 +33,7 @@ This repository contains a simple Convolutional Neural Network (CNN) project for
 ## Run
 
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 If the project requires a model path or dataset input, adjust inside `app.py` or pass CLI args as implemented.
