@@ -23,7 +23,6 @@ env/
 .DS_Store
 
 # Database/temporary
-database/
 *.sqlite3
 
 # Model checkpoints and extras
