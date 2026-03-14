@@ -10,6 +10,7 @@ This repository contains a simple Convolutional Neural Network (CNN) project for
 - `explainability.py` - Explainability methods (Grad-CAM, saliency, etc.)
 - `database/` - Optional dataset or persistence storage
 - `instruction.txt` / `explanation.txt` - Notes and instructions
+- `screenshot/` - Screenshot assets used for demos or documentation
 - `requirements.txt` - Python dependencies
 - `.gitignore` - Ignored files for git
 
